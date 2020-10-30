@@ -27,3 +27,19 @@ int main()
             flag=0;
         a=a/10;
     }
+    if(pl=1)
+    {
+       if(c==-1)
+           printf("Same digits");
+       else
+           printf("Not same");
+    }
+    else
+    {
+      if (flag&&c==-1)
+        printf("Same");
+      else
+        printf("Different");
+    }
+    return 0;
+}
